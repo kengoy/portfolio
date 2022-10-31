@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../assets/css/sanitize.css" />
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <link rel="stylesheet" href="../assets/css/style-projects.css" />
+    <script src="../assets/js/mobileMenu.js" defer></script>
+    <script src="../assets/js/projects.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      id="leven-google-fonts-css"
+      href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"
+      type="text/css"
+      media="all"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Embedded System Development - Kengo Yoshii</title>
+  </head>
+  <body>
+    <div class="page-container">
+      <header class="header">
+        <a href="../index.html">
+          <div class="logo">
+            <div class="logo-symbol">K</div>
+            <div class="logo-text">
+              Kengo
+              <span>Yoshii</span>
+            </div>
+          </div>
+        </a>
+        <nav class="header-nav">
+          <ul class="header-navlist">
+            <li class="header-navitem">
+              <a href="../index.html">About Me</a>
+            </li>
+            <li class="header-navitem">
+              <a href="../index.html#resume">Resume</a>
+            </li>
+            <li class="header-navitem">
+              <a href="../index.html#portfolio">Portfolio</a>
+            </li>
+            <li class="header-navitem">
+              <a
+                href="mailto:kengo.yoshii.925@gmail.com?subject=Let's chat!&body=Hi Kengo, what date and time are you available to chat this week and next week?"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <section class="project-header">
+        <div class="project-nav">
+          <span class="project-navitem"><a href="./fxp.html"><</a></span>
+          <span class="project-navitem"><a href="./c4sf.html">></a></span>
+        </div>
+        <h1>Embedded System Development</h1>
+      </section>
+      <section class="project-container">
+        <div class="project-body">
+          <div
+            class="carousel"
+            aria-label="Embedded System Development Photos"
+            data-carousel
+          >
+            <ul data-slides>
+              <li class="slide" data-active>
+                <img
+                  src="../assets/images/project-bravia-1.jpg"
+                  alt="Embedded System Development Image #1"
+                />
+              </li>
+              <li class="slide">
+                <img
+                  src="../assets/images/project-bravia-2.jpg"
+                  alt="Embedded System Development Image #2"
+                />
+              </li>
+              <li class="slide">
+                <img
+                  src="../assets/images/project-bravia-3.jpg"
+                  alt="Embedded System Development Image #3"
+                />
+              </li>
+              <li class="slide">
+                <img
+                  src="../assets/images/project-bravia-4.jpg"
+                  alt="Embedded System Development Image #4"
+                />
+              </li>
+            </ul>
+            <button class="carousel-button prev" data-carousel-button="prev">
+              <
+            </button>
+            <button class="carousel-button next" data-carousel-button="next">
+              >
+            </button>
+          </div>
+          <div class="carousel-nav" data-carousel-nav>
+            <button
+              class="carousel-indicator"
+              data-active
+              data-carousel-indicator
+            ></button>
+            <button class="carousel-indicator" data-carousel-indicator></button>
+            <button class="carousel-indicator" data-carousel-indicator></button>
+            <button class="carousel-indicator" data-carousel-indicator></button>
+          </div>
+
+          <div class="project-overview">
+            <p>
+              I started my profesional career as a Software Engineer to develop
+              application framework for embededd products such as TV and Blu-ray
+              Player. My main tasks for the first 2 years were:
+            </p>
+            <ul>
+              <li>
+                Develop graphics porting layer to support different SoCs and
+                GPUs on different devices. I developed the porting layer for
+                EMMA series (NEC SoC) and OpenVG.
+              </li>
+              <li>
+                Bug fix of UI components, utilities, graphic modules on the
+                framework.
+              </li>
+              <li>Test Automation using Jenkins.</li>
+              <li>Peer Code Review using Review Board.</li>
+              <li>Performance Optimization, aiming to achieve 30 FPS.</li>
+              <li>
+                Writing unit tests and functional tests, aiming to keep the code
+                coverage beyond 90%.
+              </li>
+              <li>
+                Server and tools maintainance for effective team development,
+                including CI using Jenkins, BTS using Bugzilla, Source Code
+                Version Control using Subversion, Wiki and so on.
+              </li>
+            </ul>
+
+            <p>
+              From the 3rd yers, I worked with offshore engineers in India to
+              develop new features on TV. My main role is to lead the team to
+              develop new requirements, to manage development tasks, and to
+              mentor the engineers. Features my team developed were:
+            </p>
+
+            <ul>
+              <li>
+                Software Keyboard: supporting different languages including
+                Right-To-Left.
+              </li>
+              <li>
+                Browser: supporting web site rendering on TV. Worked with Opera
+                engineers.
+              </li>
+              <li>
+                Youtube: supprting high performance contents loading. Worked
+                with Youtube engineers.
+              </li>
+              <li>
+                IPTV: supporting different video streaming platforms on the same
+                browser-based framework.
+              </li>
+            </ul>
+
+            <h3>What was my biggest <b>Learnings</b>?</h3>
+            <p>
+              Developing application framework for new requirements as well as
+              maintaining existing features is challening, especially when the
+              code base is getting big every year. The entire code based was
+              beyond 5-million lines for the products I got involved. As a part
+              of the big software development team, I leanred important
+              disciplines ranging from understanding requirements, feasibility
+              study, designing archtecture, coding, testing, and releasing and
+              maintening. It's always important to be creative, collaborative,
+              and utilizing the best tools and practices for effective
+              development.
+            </p>
+          </div>
+        </div>
+        <div class="project-description">
+          <div class="project-description-container">
+            <h3>Description</h3>
+            <ul class="info">
+              <li class="project-description-item">
+                <img src="../assets/images/globe.png" alt="" />
+                <a
+                  href="https://electronics.sony.com/tv-video/televisions/c/all-tvs"
+                  target="_blank"
+                  >electronics.sony.com/tv-video/televisions/c/all-tvs</a
+                >
+              </li>
+              <li class="project-description-item">
+                <img src="../assets/images/git.png" alt="" />
+                <span>private</span>
+              </li>
+              <li class="project-description-item">
+                <img src="../assets/images/calendar.png" alt="" />
+                <span>2007 - 2015</span>
+              </li>
+              <li class="project-description-item">
+                <p>
+                  BRAVIA is a brand of Sony TV. I developed embedded
+                  applications as a junior software engineer, and led beyond 30
+                  engineers of an application framework team to support
+                  application developers and a browser team to enable web
+                  applications running on the embedded device.
+                </p>
+              </li>
+            </ul>
+            <div class="project-technology">
+              <h3>Technology</h3>
+              <ul>
+                <li>C++</li>
+                <li>Javascript</li>
+                <li>Linux-based Embededd System</li>
+                <li>Java</li>
+                <li>Android TV</li>
+              </ul>
+            </div>
+            <div class="project-role">
+              <h3>My Role</h3>
+              <ul>
+                <li>Application Framework Development</li>
+                <li>Feature Leader</li>
+                <li>Offshore Development Team Leading</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="mobile-menu">
+        <input id="hamburger-check" type="checkbox" class="toggler" />
+        <div class="hamburger"><div></div></div>
+        <div class="menu">
+          <div>
+            <div>
+              <ul class="header-navlist">
+                <li class="header-navitem">
+                  <a id="mobile-nav-aboutme" href="../index.html">About Me</a>
+                </li>
+                <li class="header-navitem">
+                  <a href="../index.html#resume">Resume</a>
+                </li>
+                <li class="header-navitem">
+                  <a id="mobile-nav-portfolio" href="../index.html#portfolio"
+                    >Portfolio</a
+                  >
+                </li>
+                <li class="header-navitem">
+                  <a
+                    href="mailto:kengo.yoshii.925@gmail.com?subject=Let's chat!&body=Hi Kengo, what date and time are you available to chat this week and next week?"
+                    >Contact</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

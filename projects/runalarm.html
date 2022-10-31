@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../assets/css/sanitize.css" />
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <link rel="stylesheet" href="../assets/css/style-projects.css" />
+    <script src="../assets/js/mobileMenu.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      id="leven-google-fonts-css"
+      href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"
+      type="text/css"
+      media="all"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Runalarm - Kengo Yoshii</title>
+  </head>
+  <body>
+    <div class="page-container">
+      <header class="header">
+        <a href="../index.html">
+          <div class="logo">
+            <div class="logo-symbol">K</div>
+            <div class="logo-text">
+              Kengo
+              <span>Yoshii</span>
+            </div>
+          </div>
+        </a>
+        <nav class="header-nav">
+          <ul class="header-navlist">
+            <li class="header-navitem">
+              <a href="../index.html">About Me</a>
+            </li>
+            <li class="header-navitem">
+              <a href="../index.html#resume">Resume</a>
+            </li>
+            <li class="header-navitem">
+              <a href="../index.html#portfolio">Portfolio</a>
+            </li>
+            <li class="header-navitem">
+              <a
+                href="mailto:kengo.yoshii.925@gmail.com?subject=Let's chat!&body=Hi Kengo, what date and time are you available to chat this week and next week?"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <section class="project-header">
+        <div class="project-nav">
+          <span class="project-navitem"><a href="./beerpost.html"><</a></span>
+          <span class="project-navitem"><a href="./oppro.html">></a></span>
+        </div>
+        <h1>Runalarm - This will wake you up</h1>
+      </section>
+      <section class="project-container">
+        <div class="project-body">
+          <div class="carousel" aria-label="Runalarm Photos" data-carousel>
+            <ul data-slides>
+              <li class="slide" data-active>
+                <img
+                  src="../assets/images/project-runalarm-1.png"
+                  alt="Runalarm Image #1"
+                />
+              </li>
+            </ul>
+          </div>
+          <div class="project-overview">
+            <h3>What was the <b>Project</b>?</h3>
+            <p>
+              Kengo Yoshii, a hard worker till midnight, needed a powerful alarm
+              that forces him to wake up in the morning. He came up an idea of
+              creating a mobile app that let him wake up by forcing him to run
+              to stop the alarm. The app used activity recognition API on
+              Android, and CMMotionActivity iOS to detect the user is running.
+            </p>
+            <p>It also provided Android Wear App for watch devices.</p>
+          </div>
+        </div>
+        <div class="project-description">
+          <div class="project-description-container">
+            <h3>Description</h3>
+            <ul class="info">
+              <li class="project-description-item">
+                <img src="../assets/images/git.png" alt="" />
+                <span
+                  ><a
+                    href="https://github.com/kengoy/runalarm_ios"
+                    target="_blank"
+                    >github.com/kengoy/runalarm_ios</a
+                  ></span
+                >
+                <span
+                  ><a
+                    href="https://github.com/kengoy/runalarm_android"
+                    target="_blank"
+                    >github.com/kengoy/runalarm_android</a
+                  ></span
+                >
+              </li>
+              <li class="project-description-item">
+                <img src="../assets/images/calendar.png" alt="" />
+                <span>2014-2015</span>
+              </li>
+              <li class="project-description-item">
+                <p>
+                  Runalarm will wake you up no matter what, since it requires
+                  running to stop the alarm. Runalarm is recommended for people
+                  who
+                </p>
+                <ul>
+                  <li>needs to wake up on time</li>
+                  <li>wants to exercise soon after waking up</li>
+                  <li>wants to make a fresh start of the day</li>
+                  <li>wants to use early morning time for some activity</li>
+                </ul>
+                <p>
+                  With this special alarm clock, you will never miss an
+                  important plan any more. You will always be on time and
+                  feeling great because your morning exercise is already done!
+                </p>
+              </li>
+            </ul>
+            <div class="project-technology">
+              <h3>Technology</h3>
+              <ul>
+                <li>iOS / Swift</li>
+                <li>Android</li>
+                <li>Activity Recognition API</li>
+              </ul>
+            </div>
+            <div class="project-role">
+              <h3>My Role</h3>
+              <ul>
+                <li>iOS App Development</li>
+                <li>Android App Development</li>
+                <li>Field Test</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="mobile-menu">
+        <input id="hamburger-check" type="checkbox" class="toggler" />
+        <div class="hamburger"><div></div></div>
+        <div class="menu">
+          <div>
+            <div>
+              <ul class="header-navlist">
+                <li class="header-navitem">
+                  <a id="mobile-nav-aboutme" href="../index.html">About Me</a>
+                </li>
+                <li class="header-navitem">
+                  <a href="../index.html#resume">Resume</a>
+                </li>
+                <li class="header-navitem">
+                  <a id="mobile-nav-portfolio" href="../index.html#portfolio"
+                    >Portfolio</a
+                  >
+                </li>
+                <li class="header-navitem">
+                  <a
+                    href="mailto:kengo.yoshii.925@gmail.com?subject=Let's chat!&body=Hi Kengo, what date and time are you available to chat this week and next week?"
+                    >Contact</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
